@@ -26,4 +26,4 @@ A robust Python utility that monitors a directory for new or modified files and 
 ### Basic command:
 
 ```bash
-python WsS.py <watched_dir> <trigger_script> [--interval SECONDS] [--trigger-on-startup]
+python WaS.py <watched_dir> <trigger_script> [--interval SECONDS] [--trigger-on-startup]
