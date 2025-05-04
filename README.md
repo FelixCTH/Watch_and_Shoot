@@ -25,9 +25,9 @@ A lightweight Python utility that monitors a specified directory for new files. 
 
 ### 1. Clone or copy the script
 
-Save the script as `watch_folder.py`.
+Save the script as `WaS.py`.
 
 ### 2. Run the watcher
 
 ```bash
-python watch_folder.py <watched_dir> <trigger_script> [--interval SECONDS]
+python WaS.py <watched_dir> <trigger_script> [--interval SECONDS]
