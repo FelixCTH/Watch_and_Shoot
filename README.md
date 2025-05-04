@@ -1,33 +1,29 @@
-# 🔍 Folder Watcher and Script Trigger
+# 🔄 Watch & Trigger: Python Directory Monitor
 
-A lightweight Python utility that monitors a specified directory for new files. When new files are detected, it automatically triggers a user-defined Python script. This is ideal for automating data pipelines, batch processing, or handling dropped files in real time.
-
----
-
-## 📦 Features
-
-- Monitors a directory for newly added files
-- Executes a custom Python script on change detection
-- Configurable polling interval
-- Simple command-line interface
-- Cross-platform (Linux, macOS, Windows)
+A robust Python utility that monitors a directory for new or modified files and automatically triggers a specified Python script. Ideal for data pipelines, batch processors, or automated workflows.
 
 ---
 
-## 🛠️ Requirements
+## ✅ Features
+
+- 🕵️‍♂️ Monitors a folder for file **additions** or **modifications**
+- ⚡ Optional **immediate execution** at script startup
+- 🕒 Configurable polling interval (default: 10 seconds)
+- 🔒 Uses file timestamps for accurate change detection
+- 🐍 Lightweight: no third-party dependencies
+
+---
+
+## 🛠 Requirements
 
 - Python 3.6+
-- No external dependencies (uses only Python standard library)
+- Works on Linux, macOS, and Windows
 
 ---
 
 ## 🚀 Usage
 
-### 1. Clone or copy the script
-
-Save the script as `WaS.py`.
-
-### 2. Run the watcher
+### Basic command:
 
 ```bash
-python WaS.py <watched_dir> <trigger_script> [--interval SECONDS]
+python WsS.py <watched_dir> <trigger_script> [--interval SECONDS] [--trigger-on-startup]
