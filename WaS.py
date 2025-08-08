@@ -6,6 +6,7 @@ import sys
 
 ## TEST2 WaS, main, feature 2
 ## TEST2 WaS, main 2
+## TEST2 WaS, main, feature 2
 
 def parse_args():
     parser = argparse.ArgumentParser(
