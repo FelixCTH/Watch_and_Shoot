@@ -4,6 +4,8 @@ import subprocess
 import argparse
 import sys
 
+## TEST WaS
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Monitor a folder and trigger a script on new or modified files."
@@ -78,3 +80,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
