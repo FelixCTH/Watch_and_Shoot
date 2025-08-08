@@ -4,7 +4,7 @@ import subprocess
 import argparse
 import sys
 
-## TEST2 WaS, main
+## TEST2 WaS, main 2
 
 def parse_args():
     parser = argparse.ArgumentParser(
